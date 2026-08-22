@@ -1,0 +1,21 @@
+# Obsidian app state — machine-specific, not part of the kit
+.obsidian/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Scratch / staging artifacts — never shipped
+*.scratch.md
+SCRUB_LEDGER*
+REWRITE_SPEC.md
+
+# Local permission overrides — personal, not shipped
+.claude/settings.local.json
+
+# Claude Code runtime lock files
+.claude/scheduled_tasks.lock
+
+# Python bytecode
+__pycache__/
+*.pyc
