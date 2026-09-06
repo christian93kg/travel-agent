@@ -44,6 +44,12 @@ generic travel advice. Read `SKILL.md` first for the pointer, then
 Full detail lives in `.claude/skills/plan-trip/PROTOCOL.md` — this section is
 the map, not the spec.
 
+## Git commit attribution
+
+Never add a "Co-Authored-By: Claude" (or any Claude/Anthropic) trailer to commit
+messages, PR descriptions, or any git-related output for this repo. Commit as
+the repo owner only.
+
 ## Forking this publicly
 
 If you fork this repo and commit your own trips, `trips/` is not scrubbed for
