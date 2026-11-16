@@ -10,8 +10,8 @@ frameworks and playbooks in this repo rather than generic travel advice.
 
 ## What it does
 
-Runs intake → architecture → itinerary skeleton → threat calibration → gear
-delta, in that order, pulling each stage's method from the relevant
+Runs intake → architecture → itinerary skeleton → (optional logistics scan
+with `tools/`) → threat calibration → gear delta, in that order, pulling each stage's method from the relevant
 `frameworks/` or `playbooks/` file rather than reasoning from scratch.
 
 **`PROTOCOL.md` in this folder is the authoritative flow.** Read it before

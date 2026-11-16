@@ -1,0 +1,110 @@
+[
+ {
+  "id": "lis|JFK-LIS|2027-04-08|2027-04-17|c1",
+  "legs": [
+   {
+    "date": "2027-04-08",
+    "from": "JFK",
+    "to": "LIS"
+   },
+   {
+    "date": "2027-04-17",
+    "from": "LIS",
+    "to": "JFK"
+   }
+  ],
+  "cabin": 1,
+  "adults": 1,
+  "maxMin": 900
+ },
+ {
+  "id": "lis|JFK-LIS|2027-04-09|2027-04-17|c1",
+  "legs": [
+   {
+    "date": "2027-04-09",
+    "from": "JFK",
+    "to": "LIS"
+   },
+   {
+    "date": "2027-04-17",
+    "from": "LIS",
+    "to": "JFK"
+   }
+  ],
+  "cabin": 1,
+  "adults": 1,
+  "maxMin": 900
+ },
+ {
+  "id": "lis|JFK-LIS|2027-04-10|2027-04-17|c1",
+  "legs": [
+   {
+    "date": "2027-04-10",
+    "from": "JFK",
+    "to": "LIS"
+   },
+   {
+    "date": "2027-04-17",
+    "from": "LIS",
+    "to": "JFK"
+   }
+  ],
+  "cabin": 1,
+  "adults": 1,
+  "maxMin": 900
+ },
+ {
+  "id": "lis|EWR-LIS|2027-04-08|2027-04-17|c1",
+  "legs": [
+   {
+    "date": "2027-04-08",
+    "from": "EWR",
+    "to": "LIS"
+   },
+   {
+    "date": "2027-04-17",
+    "from": "LIS",
+    "to": "EWR"
+   }
+  ],
+  "cabin": 1,
+  "adults": 1,
+  "maxMin": 900
+ },
+ {
+  "id": "lis|EWR-LIS|2027-04-09|2027-04-17|c1",
+  "legs": [
+   {
+    "date": "2027-04-09",
+    "from": "EWR",
+    "to": "LIS"
+   },
+   {
+    "date": "2027-04-17",
+    "from": "LIS",
+    "to": "EWR"
+   }
+  ],
+  "cabin": 1,
+  "adults": 1,
+  "maxMin": 900
+ },
+ {
+  "id": "lis|EWR-LIS|2027-04-10|2027-04-17|c1",
+  "legs": [
+   {
+    "date": "2027-04-10",
+    "from": "EWR",
+    "to": "LIS"
+   },
+   {
+    "date": "2027-04-17",
+    "from": "LIS",
+    "to": "EWR"
+   }
+  ],
+  "cabin": 1,
+  "adults": 1,
+  "maxMin": 900
+ }
+]

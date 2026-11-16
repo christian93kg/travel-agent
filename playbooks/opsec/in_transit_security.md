@@ -66,7 +66,7 @@ The core principle, straight from Bazzell's *Extreme Privacy*: the hotel network
 
 ## Related
 
-- [[pre_trip_opsec]] — hardening and identity prep before you leave.
-- [[communication_protocols]] — SIM strategy and secure messaging while abroad.
+- [pre_trip_opsec](pre_trip_opsec.md) — hardening and identity prep before you leave.
+- [communication_protocols](communication_protocols.md) — SIM strategy and secure messaging while abroad.
 - [gear_kit](../gear_kit.md) — router, charger, and power-bank specifics as part of the wider kit.
 - [situational_awareness](../../frameworks/situational_awareness.md) — the broader threat-awareness model this OPSEC layer sits inside.

@@ -45,7 +45,7 @@ Stated interests to design around: food, walking, one day trip.
 
 **Reasoning:** Single destination, solo traveler, 8 days, and the traveler
 named decision fatigue directly in intake — that's the cognitive-load rule
-from [[trip_architecture]] §3 in its most literal form: a solo
+from [trip_architecture](../../frameworks/trip_architecture.md) §3 in its most literal form: a solo
 traveler has no one to offload navigation or logistics onto, and every extra
 check-in or repack is executive-function spend that competes with the food-
 and-walking experience the trip is actually for. There's no case for a
@@ -66,28 +66,28 @@ decompression window, protect days 5–8 as the peak, and plan a deliberate
 consolidation/reset before the trip's back half runs out.
 
 A note on the fit: this trip is exactly 8 days, which is both the total
-length and the width of the novelty-peak window in [[travel_philosophy]]
+length and the width of the novelty-peak window in [travel_philosophy](../../frameworks/travel_philosophy.md)
 §2. Running the full decompression (1–4) → peak (5–8) arc inside an 8-day
 trip means the peak has to compress to days 5–7, with day 8 given to
 departure. That's the honest trade — per the peak-end rule in
-[[trip_architecture]] §2, protecting the last 24 hours from a
+[trip_architecture](../../frameworks/trip_architecture.md) §2, protecting the last 24 hours from a
 rushed exit is worth more to the remembered trip than squeezing one more
 peak activity into it.
 
 | Day | Block | Notes |
 |---|---|---|
-| 1 | Arrival / decompression | Overnight eastbound flight from the US East Coast. Jet-lag protocol ([[jet_lag_protocol]]): target sleep onset ~1/3 into the flight on destination time, no alcohol in-flight, break the ~14–16hr fast with a high-protein breakfast at destination morning. This is a phase-advance shift, so seek bright light **after Tmin** — late morning into early afternoon outdoors, on foot, no ambitious plans. Early to bed on Lisbon time. |
+| 1 | Arrival / decompression | Overnight eastbound flight from the US East Coast. Jet-lag protocol ([jet_lag_protocol](../../frameworks/jet_lag_protocol.md)): target sleep onset ~1/3 into the flight on destination time, no alcohol in-flight, break the ~14–16hr fast with a high-protein breakfast at destination morning. This is a phase-advance shift, so seek bright light **after Tmin** — late morning into early afternoon outdoors, on foot, no ambitious plans. Early to bed on Lisbon time. |
 | 2 | Decompression | Still inside the days 1–3 jet-lag window. Orientation walk through the hub neighborhood, one unhurried meal-anchored outing, no timed reservations yet — the goal is letting the clock finish shifting, not sightseeing output. |
-| 3 | Decompression → acquisition | Learning the city's systems per the mastery-cycle framing in [[adhd_travel_design]] §"The mastery cycle, applied to destinations" — transit, the neighborhood grid, a couple of go-to food spots. Light frame, most of the day unscheduled. |
+| 3 | Decompression → acquisition | Learning the city's systems per the mastery-cycle framing in [adhd_travel_design](../../frameworks/adhd_travel_design.md) §"The mastery cycle, applied to destinations" — transit, the neighborhood grid, a couple of go-to food spots. Light frame, most of the day unscheduled. |
 | 4 | Transition | Easing into the competence phase. One walking-heavy but low-stakes anchor (a neighborhood or riverfront route), otherwise open. Last low-key day before the peak window opens. |
 | 5 | Novelty peak begins — day trip | Sintra (the stated day trip). This is the trip's engineered peak per the peak-end rule — a full day out of the hub, hills and palace grounds, genuinely different texture from hub-neighborhood walking. Train from Rossio; no overnight, returns to the same bed. |
-| 6 | Novelty peak | Food-and-walking day as stated in intake — a petiscos-crawl style route through 2–3 neighborhoods, structured as 80% planned / 20% open per the decision-fatigue architecture in [[adhd_travel_design]]. |
+| 6 | Novelty peak | Food-and-walking day as stated in intake — a petiscos-crawl style route through 2–3 neighborhoods, structured as 80% planned / 20% open per the decision-fatigue architecture in [adhd_travel_design](../../frameworks/adhd_travel_design.md). |
 | 7 | Novelty peak | Second signature walking day — river/Belém axis or an equivalent full-day route. Last full day before the consolidation block. |
 | 8 | Consolidation / departure | Protect the ending deliberately: light morning, no new must-see items introduced, frictionless transfer to the airport. This is the "no rushed last day" rule from the template, applied literally — day 8 is departure, not a compressed extra peak day. |
 
 ## Threat calibration
 
-**Tier:** 2 — Aware ([[situational_awareness]]). Portugal is a
+**Tier:** 2 — Aware ([situational_awareness](../../frameworks/situational_awareness.md)). Portugal is a
 low-crime, strong-rule-of-law destination overall, but Lisbon's dense tourist
 corridors carry the region's standard organized-pickpocketing pattern — Tram
 28 and the Alfama/Baixa foot traffic it runs through are the commonly cited
@@ -113,8 +113,8 @@ obfuscation. This destination and trip don't call for more than that.
 
 ## Gear & capsule checklist
 
-Delta only, against the default capsule in [[clothing_capsule]]
-and [[gear_kit]]. Lisbon in May is mild-to-warm with cool
+Delta only, against the default capsule in [clothing_capsule](../../playbooks/clothing_capsule.md)
+and [gear_kit](../../playbooks/gear_kit.md). Lisbon in May is mild-to-warm with cool
 evenings; Sintra runs cooler and mistier than the hub on the day-trip day.
 
 - [ ] Confirm the primary shoe's tread on wet *calçada portuguesa* (the

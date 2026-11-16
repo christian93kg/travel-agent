@@ -1,0 +1,10 @@
+{
+  "prefix": "lis",
+  "origins": ["JFK", "EWR"],
+  "destinations": ["LIS"],
+  "dates": { "from": "2027-04-08", "to": "2027-04-10" },
+  "returnDates": ["2027-04-17"],
+  "cabins": [1],
+  "adults": 1,
+  "maxMin": 900
+}

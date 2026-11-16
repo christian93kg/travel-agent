@@ -98,6 +98,6 @@ If your workday shifts your wake/sleep cycle later, your physical performance li
 
 ## See also
 
-- [[trip_architecture]] — the hub-and-spoke model this playbook assumes as the default trip shape
-- [[rotation_templates]] — the same rhythm-first logic applied to a full-year rotation instead of a single month
-- [[jet_lag_protocol]] — relevant on the return leg, not the trip itself, since a fixed local schedule for a full month is a different (milder) chronobiological case than short-trip jet lag
+- [trip_architecture](../frameworks/trip_architecture.md) — the hub-and-spoke model this playbook assumes as the default trip shape
+- [rotation_templates](rotation_templates.md) — the same rhythm-first logic applied to a full-year rotation instead of a single month
+- [jet_lag_protocol](../frameworks/jet_lag_protocol.md) — relevant on the return leg, not the trip itself, since a fixed local schedule for a full month is a different (milder) chronobiological case than short-trip jet lag

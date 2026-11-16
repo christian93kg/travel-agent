@@ -19,3 +19,16 @@ REWRITE_SPEC.md
 # Python bytecode
 __pycache__/
 *.pyc
+
+# Real trips stay local: only the template and the invented example are tracked
+trips/*
+!trips/_template/
+!trips/lisbon-8d/
+
+# Tools: dependencies, outputs, sandbox scratch, local Node
+tools/node_modules/
+tools/.node/
+tools/out/
+tools/airbnb/scratch/*
+!tools/airbnb/scratch/.gitkeep
+.env

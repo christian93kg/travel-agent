@@ -1,0 +1,18 @@
+[
+  {
+    "id": "lisbon-2ad",
+    "location": "Lisbon, Portugal",
+    "checkin": "2027-04-10",
+    "checkout": "2027-04-17",
+    "adults": 2
+  },
+  {
+    "id": "lisbon-1ad-entire-workspace",
+    "location": "Lisbon, Portugal",
+    "checkin": "2027-04-10",
+    "checkout": "2027-04-17",
+    "adults": 1,
+    "propertyType": "entire_home",
+    "verify": { "need": ["workspace", "wifi", "!shared"], "pass": 2, "max": 4 }
+  }
+]

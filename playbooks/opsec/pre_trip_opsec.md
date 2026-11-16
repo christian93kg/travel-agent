@@ -92,7 +92,7 @@ Bazzell's *Extreme Privacy* describes carrying small, globally-recognized gold c
 
 ## Related
 
-- [[in_transit_security]] — network security once you're actually connected somewhere.
-- [[communication_protocols]] — the SIM and messaging setup this checklist assumes is already in place.
+- [in_transit_security](in_transit_security.md) — network security once you're actually connected somewhere.
+- [communication_protocols](communication_protocols.md) — the SIM and messaging setup this checklist assumes is already in place.
 - [gear_kit](../gear_kit.md) — the hardware (travel router, security key, backup drives) referenced throughout.
 - [situational_awareness](../../frameworks/situational_awareness.md) — the broader awareness model that booking and border posture sit inside.

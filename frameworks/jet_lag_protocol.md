@@ -1,6 +1,6 @@
 # Jet Lag Protocol: Circadian Engineering for Long-Haul Travel
 
-**What this framework claims:** jet lag isn't generic tiredness, it's desynchronization — your liver, gut, and muscles running on a different schedule than your brain's master clock, the suprachiasmatic nucleus (SCN). You can shift the master clock, and drag the peripheral ones along with it, deliberately and faster than the "one day per time zone" rule of thumb by manipulating light, temperature, and food timing around a single anchor point. Run this well and red-eyes and long layovers stop being routing liabilities to minimize and become useful tools for getting into destination rhythm before you land. This protocol handles the flight itself; sleep quality once you've arrived is covered by the safe-cell protocol in [[travel_philosophy]].
+**What this framework claims:** jet lag isn't generic tiredness, it's desynchronization — your liver, gut, and muscles running on a different schedule than your brain's master clock, the suprachiasmatic nucleus (SCN). You can shift the master clock, and drag the peripheral ones along with it, deliberately and faster than the "one day per time zone" rule of thumb by manipulating light, temperature, and food timing around a single anchor point. Run this well and red-eyes and long layovers stop being routing liabilities to minimize and become useful tools for getting into destination rhythm before you land. This protocol handles the flight itself; sleep quality once you've arrived is covered by the safe-cell protocol in [travel_philosophy](travel_philosophy.md).
 
 ## 1. The Three Zeitgebers
 
@@ -57,5 +57,5 @@ The practical upshot: "book the shortest possible routing" is not automatically 
 
 ## See Also
 
-- [[travel_philosophy]] — the safe-cell sleep protocol that takes over once you've landed and the Tmin-based clock shift is underway
-- [[trip_architecture]] — why shortening the days-1-4 decompression window (which this protocol directly targets) matters more on a hub-and-spoke trip than a circuit
+- [travel_philosophy](travel_philosophy.md) — the safe-cell sleep protocol that takes over once you've landed and the Tmin-based clock shift is underway
+- [trip_architecture](trip_architecture.md) — why shortening the days-1-4 decompression window (which this protocol directly targets) matters more on a hub-and-spoke trip than a circuit

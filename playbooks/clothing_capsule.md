@@ -50,6 +50,6 @@ A handful of core rows — primary pant, both shirts, mid-layer, hard shell, dai
 
 ## Related
 
-- [[gear_kit]] — the non-clothing side of the kit: footwear durability reasoning, shells, power, EDC.
-- [[gear_intake_workflow]] — the process for researching a slot you haven't picked yet.
+- [gear_kit](gear_kit.md) — the non-clothing side of the kit: footwear durability reasoning, shells, power, EDC.
+- [gear_intake_workflow](gear_intake_workflow.md) — the process for researching a slot you haven't picked yet.
 - [gray-man tier framework](../frameworks/situational_awareness.md) — full tier framework and regional calibration behind the tier-check column.

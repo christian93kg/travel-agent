@@ -78,4 +78,4 @@ Use the three gap categories above as a diagnostic: if a book from your matched 
 ## Related
 
 - [travel_philosophy](../frameworks/travel_philosophy.md) — where open mode fits in the broader travel ethos.
-- [[working_month_method]] — long-stay travel gives open mode far more reps than a short trip does.
+- [working_month_method](working_month_method.md) — long-stay travel gives open mode far more reps than a short trip does.

@@ -1,6 +1,6 @@
 # Building a Travel Gear Kit
 
-**What this playbook claims:** the reasoning behind gear picks for a long-term travel kit — footwear, shells, base layers, power, network hardware, and EDC — biased toward buy-it-once durability ("BIFL," buy it for life) over replacing cheap gear every year or two. Pair this with [[clothing_capsule]] for the wearable-matrix side and [[gear_intake_workflow]] for researching any slot you haven't decided on yet.
+**What this playbook claims:** the reasoning behind gear picks for a long-term travel kit — footwear, shells, base layers, power, network hardware, and EDC — biased toward buy-it-once durability ("BIFL," buy it for life) over replacing cheap gear every year or two. Pair this with [clothing_capsule](clothing_capsule.md) for the wearable-matrix side and [gear_intake_workflow](gear_intake_workflow.md) for researching any slot you haven't decided on yet.
 
 ## Footwear
 
@@ -72,6 +72,6 @@ Minimum viable everyday carry: wallet, phone, keys, and — if you shoot photos 
 
 ## Related
 
-- [[clothing_capsule]] — the wearable-matrix side of the kit.
-- [[gear_intake_workflow]] — how to research a slot you haven't decided on yet.
+- [clothing_capsule](clothing_capsule.md) — the wearable-matrix side of the kit.
+- [gear_intake_workflow](gear_intake_workflow.md) — how to research a slot you haven't decided on yet.
 - [gray-man tier framework](../frameworks/situational_awareness.md) — the tier framework referenced throughout (watch, camera, footwear silhouette).
