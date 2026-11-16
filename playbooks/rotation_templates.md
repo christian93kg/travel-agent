@@ -1,6 +1,6 @@
 # Rotation Templates
 
-**What this framework claims:** Hub-and-spoke (see [[trip_architecture]]) reduces decision fatigue within a single trip. A rotation calendar is the same idea applied to a full year — a small number of multi-month blocks, each anchored to one city, chosen against a fixed set of criteria instead of drifting from place to place ad hoc. The four templates below are worked examples of that calendar, not a recommendation of specific cities for you. Swap in whatever cities score well against your own criteria and keep the shape: six two-month blocks, one of them reserved for home base.
+**What this framework claims:** Hub-and-spoke (see [trip_architecture](../frameworks/trip_architecture.md)) reduces decision fatigue within a single trip. A rotation calendar is the same idea applied to a full year — a small number of multi-month blocks, each anchored to one city, chosen against a fixed set of criteria instead of drifting from place to place ad hoc. The four templates below are worked examples of that calendar, not a recommendation of specific cities for you. Swap in whatever cities score well against your own criteria and keep the shape: six two-month blocks, one of them reserved for home base.
 
 ## Selection criteria
 
@@ -11,7 +11,7 @@ Score each candidate block against four generic dimensions:
 - **Cost target** — a cost-of-living band you're comfortable running for two months, not a number you back into after the fact.
 - **Home-base anchor** — at least one block a year reserved for admin, mail, medical care, and the place or people you consider home base, wherever that is.
 
-Two months per block is long enough to establish gym, grocery, and social routines — see [[working_month_method]] for the same rhythm-first logic compressed into a single 30-day working trip — and short enough that a bad pick costs you two months, not a year.
+Two months per block is long enough to establish gym, grocery, and social routines — see [working_month_method](working_month_method.md) for the same rhythm-first logic compressed into a single 30-day working trip — and short enough that a bad pick costs you two months, not a year.
 
 ## Template A — Single-region rotation (timezone-constrained)
 
@@ -79,5 +79,5 @@ The floor: how cheap a full year of rotation can run without giving up a functio
 
 ## See also
 
-- [[trip_architecture]] — the underlying hub-and-spoke method this calendar scales up from
-- [[working_month_method]] — the same selection logic (rhythm, cost, access) applied to a single working month instead of a full-year rotation
+- [trip_architecture](../frameworks/trip_architecture.md) — the underlying hub-and-spoke method this calendar scales up from
+- [working_month_method](working_month_method.md) — the same selection logic (rhythm, cost, access) applied to a single working month instead of a full-year rotation

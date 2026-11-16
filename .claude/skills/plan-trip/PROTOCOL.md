@@ -29,6 +29,8 @@ The questionnaire:
    Feeds Stage 4 posture notes.
 9. **Hard constraints** — dates that can't move, mobility limits, visa
    issues, anything non-negotiable.
+10. **Home airport** — only if the traveler wants Stage 3b to search flights.
+    The airport code is enough.
 
 Write the answers into the trip file's `## Intake` section verbatim where it
 matters — don't flatten a hedged answer ("budget's tight but I'll stretch for
@@ -66,7 +68,7 @@ reasoning in the party's terms rather than copying solo language.
 
 Build day blocks, not an hour-by-hour schedule. Two shaping rules stack here:
 
-- **The novelty curve** (`frameworks/travel_philosophy` framing, applied via
+- **The novelty curve** (`frameworks/travel_philosophy.md` framing, applied via
   `frameworks/trip_architecture.md`): decompression on days 1–4, novelty peak
   on days 5–8, and a deliberate consolidation/reset before the trip ends —
   never let the last day be a scramble. Front-load the highest-novelty spoke
@@ -92,6 +94,27 @@ peak by one day (peak on days 5–7) and give the final day wholly to
 consolidation and departure, per the peak-end rule — a compressed peak costs
 less than a rushed ending. State the compression in the plan rather than
 silently reshaping the template's day rows.
+
+---
+
+## Stage 3b — LOGISTICS SCAN (optional)
+
+Run this only if the traveler asks for it and `tools/` is installed (see
+`tools/README.md`). It turns the architecture and skeleton into searches; it
+never books anything.
+
+- **Lodging per base.** One search per base from Stage 2: one for
+  hub-and-spoke, one per anchor for a circuit. Use `tools/airbnb/sweep.js` (or
+  `zones.js` when the traveler named neighbourhoods), always through the
+  sandbox, one search at a time.
+- **Flights aimed at the arrival window.** Stage 3's jet-lag plan sets the
+  target arrival time. Search those dates with `tools/flights/`
+  (`specgen.js` + `batch.js` for a date range, `day.js` for one day) from the
+  home airport given in intake.
+- **Write results to `## Options (dated snapshots)`** in the trip file: top
+  three per item, ranked, with the date searched and the tradeoff for each.
+  Never put a searched price in `## Bookings`; that table only logs what the
+  traveler confirms.
 
 ---
 
@@ -130,7 +153,8 @@ to fill space.
   it goes here, not smoothed over.
 - `## Bookings` never contains invented prices, confirmation numbers, or
   dates. Only log what the traveler has actually confirmed; everything else
-  is `pending`.
+  is `pending`. Searched prices from Stage 3b go in `## Options (dated
+  snapshots)`, always with the date they were seen.
 - Never write to anything under `frameworks/` or `playbooks/` — read-only
   reference for this skill.
 
@@ -148,3 +172,7 @@ to fill space.
   day-skeleton shape onto it — route to `playbooks/working_month_method.md`
   and use its structure for Stage 3 instead. Stages 1, 2, 4, and 5 still
   apply.
+- **No tools installed, or a search fails** (blocked page, site layout
+  changed). Skip Stage 3b, say so in `## Options (dated snapshots)`, and leave
+  the related `## Bookings` rows `pending`. Don't fill the gap with remembered
+  or guessed prices.

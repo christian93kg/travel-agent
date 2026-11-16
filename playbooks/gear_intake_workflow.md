@@ -6,7 +6,7 @@
 
 These apply to every row in the table, regardless of category:
 
-- **Multi-use minimum.** A clothing item should cover at least 3 of your defined use-modes (see [[clothing_capsule]]); a piece of gear should collapse at least 2 single-purpose items into one.
+- **Multi-use minimum.** A clothing item should cover at least 3 of your defined use-modes (see [clothing_capsule](clothing_capsule.md)); a piece of gear should collapse at least 2 single-purpose items into one.
 - **Neutral by default.** No logos, no luxury-brand markers, no graphic prints — check candidates against the tier framework in [gray-man tier framework](../frameworks/situational_awareness.md) before locking in a pick.
 - **Volume-disciplined.** Decide your total kit volume/weight budget up front, and log the volume/weight class for every row. A great pick that blows the budget isn't actually a pick.
 - **BIFL bias.** Default toward durable, repairable, buy-once gear. The logic borrows from Bill Perkins' *Die With Zero*: experiences are the point of the budget, but the gear that enables experiences should last long enough that the budget keeps flowing to experiences instead of to replacing broken gear.
@@ -52,11 +52,11 @@ Don't research one row at a time — it's slow, and each search loses the compar
 
 1. Read the results against the table, not in isolation — extract only what answers the specific rows in that batch.
 2. Update each row's candidates, tier check, and decision status columns.
-3. For rows that reach a clear winner, close them out: move the pick into [[clothing_capsule]] or [[gear_kit]] as appropriate, and mark the intake row decided.
+3. For rows that reach a clear winner, close them out: move the pick into [clothing_capsule](clothing_capsule.md) or [gear_kit](gear_kit.md) as appropriate, and mark the intake row decided.
 4. For rows that didn't resolve cleanly, leave them open with the narrowed candidate list — that's still progress, even without a final pick.
 
 ## Related
 
-- [[clothing_capsule]] — where decided clothing rows land.
-- [[gear_kit]] — where decided non-clothing gear rows land.
+- [clothing_capsule](clothing_capsule.md) — where decided clothing rows land.
+- [gear_kit](gear_kit.md) — where decided non-clothing gear rows land.
 - [gray-man tier framework](../frameworks/situational_awareness.md) — the tier framework referenced in the standing rules and the table's tier-check column.

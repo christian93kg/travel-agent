@@ -121,7 +121,7 @@ The mental model that ties this together: security posture should run as a backg
 
 ## See also
 
-- [[adhd_travel_design]] — for how novelty-driven attention interacts with sustaining awareness in unfamiliar environments; that intersection lives there, not here.
-- [[trip_architecture]] — hub-and-spoke design, which is also what makes the "break routine on longer stays" habit above easy to apply.
+- [adhd_travel_design](adhd_travel_design.md) — for how novelty-driven attention interacts with sustaining awareness in unfamiliar environments; that intersection lives there, not here.
+- [trip_architecture](trip_architecture.md) — hub-and-spoke design, which is also what makes the "break routine on longer stays" habit above easy to apply.
 - [pre-trip opsec playbook](../playbooks/opsec/pre_trip_opsec.md) — destination-specific device, VPN, and payment configuration that this framework's tiers point to.
 - [gear_kit](../playbooks/gear_kit.md) — carry and camouflage considerations for cameras and bags, which this framework deliberately keeps out of scope.

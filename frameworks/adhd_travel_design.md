@@ -15,7 +15,7 @@ Practical durations that follow from this:
 - **5–8 days per city** is the sweet spot for most destinations — long enough to move past the disoriented tourist phase, short enough to leave before the signal drops.
 - **Highly novel or complex cities** (dense, layered, linguistically or logistically unfamiliar) can sustain 10–12 days before the cliff hits, because there's more novelty to work through.
 - **Smaller or simpler destinations** may be fully explored in 3–5 days — pushing longer just extends the flat part of the curve.
-- **Load the next destination before the current one goes flat.** Don't wait until a city feels exhausted to start getting curious about the next one — the transition works best when there's already a new hook queued up. See [[trip_architecture]] for how this maps onto route design.
+- **Load the next destination before the current one goes flat.** Don't wait until a city feels exhausted to start getting curious about the next one — the transition works best when there's already a new hook queued up. See [trip_architecture](trip_architecture.md) for how this maps onto route design.
 
 ## Decision-fatigue architecture
 
@@ -52,6 +52,6 @@ Travel is already a high-stimulation environment — new sounds, new languages, 
 
 ## See also
 
-- [[trip_architecture]] — hub-and-spoke design and route sequencing that this framework's duration guidance plugs into.
-- [[jet_lag_protocol]] — sleep-specific tactics for the infrastructure point above.
-- [[situational_awareness]] — for the intersection of novelty-driven attention and environmental awareness while moving through unfamiliar places.
+- [trip_architecture](trip_architecture.md) — hub-and-spoke design and route sequencing that this framework's duration guidance plugs into.
+- [jet_lag_protocol](jet_lag_protocol.md) — sleep-specific tactics for the infrastructure point above.
+- [situational_awareness](situational_awareness.md) — for the intersection of novelty-driven attention and environmental awareness while moving through unfamiliar places.

@@ -1,6 +1,6 @@
 # Travel Philosophy: Die With Zero for Adventure Travel
 
-**What this framework claims:** experiences generate a return that compounds the earlier you take them — call it a memory dividend — while your physical capacity to metabolize demanding experiences quietly depreciates every year you wait. Optimizing a travel life means front-loading the investment years, sizing individual trips to the window where novelty peaks before it decays, and treating the boring infrastructure — sleep, currency, digital tools — as the delivery mechanism for that objective rather than as chores bolted onto the fun part. This file covers the philosophy and the sleep/logistics layer. Trip sizing and the hub-vs-circuit decision live in [[trip_architecture]]; the flight-day circadian protocol lives in [[jet_lag_protocol]]; region-specific season windows and points/miles tactics live in the [points and seasons playbook](../playbooks/points_and_seasons.md).
+**What this framework claims:** experiences generate a return that compounds the earlier you take them — call it a memory dividend — while your physical capacity to metabolize demanding experiences quietly depreciates every year you wait. Optimizing a travel life means front-loading the investment years, sizing individual trips to the window where novelty peaks before it decays, and treating the boring infrastructure — sleep, currency, digital tools — as the delivery mechanism for that objective rather than as chores bolted onto the fun part. This file covers the philosophy and the sleep/logistics layer. Trip sizing and the hub-vs-circuit decision live in [trip_architecture](trip_architecture.md); the flight-day circadian protocol lives in [jet_lag_protocol](jet_lag_protocol.md); region-specific season windows and points/miles tactics live in the [points and seasons playbook](../playbooks/points_and_seasons.md).
 
 ## 1. Memory Dividends: Why Front-Load Experience
 
@@ -69,7 +69,7 @@ A small, deliberately narrow toolset removes the standing cognitive overhead of 
 
 ## See Also
 
-- [[trip_architecture]] — hub-and-spoke sizing, the circuit-vs-hub decision, and how far in advance to book which kind of trip
-- [[jet_lag_protocol]] — the flight-day circadian protocol that gets you into the decompression window faster
-- [[adhd_travel_design]] — decision fatigue and novelty design, expanded beyond the 8-day peak
+- [trip_architecture](trip_architecture.md) — hub-and-spoke sizing, the circuit-vs-hub decision, and how far in advance to book which kind of trip
+- [jet_lag_protocol](jet_lag_protocol.md) — the flight-day circadian protocol that gets you into the decompression window faster
+- [adhd_travel_design](adhd_travel_design.md) — decision fatigue and novelty design, expanded beyond the 8-day peak
 - [points and seasons](../playbooks/points_and_seasons.md) — region-specific shoulder-season windows and points/miles redemption tactics

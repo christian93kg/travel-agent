@@ -1,0 +1,3 @@
+# The sandbox's HOME/TMPDIR: whatever the MCP server writes at runtime stays local.
+scratch/*
+!scratch/.gitkeep

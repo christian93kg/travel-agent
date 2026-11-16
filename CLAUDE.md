@@ -44,14 +44,29 @@ generic travel advice. Read `SKILL.md` first for the pointer, then
 Full detail lives in `.claude/skills/plan-trip/PROTOCOL.md` — this section is
 the map, not the spec.
 
+## Tools (optional)
+
+`tools/` holds discovery pipelines (see `tools/README.md`). `plan-trip` may run
+them only in Stage 3b, when the user asks for a logistics scan:
+
+- Flights: `tools/flights/` (Google Flights in headless Chromium). Keep batches
+  small and paced; don't run more than a few workers.
+- Lodging: `tools/airbnb/` runs only through `airbnb/sandbox.sh` (Landlock:
+  no access to this repo or `$HOME`, outbound port 443 only), one search at a
+  time. Never call the Airbnb MCP server outside the sandbox.
+- Every price is a dated snapshot. It goes in the trip's `## Options (dated
+  snapshots)`, never in `## Bookings`.
+- If a tool fails or isn't installed, say so and leave the item `pending`.
+
 ## Git commit attribution
 
-Never add a "Co-Authored-By: Claude" (or any Claude/Anthropic) trailer to commit
-messages, PR descriptions, or any git-related output for this repo. Commit as
-the repo owner only.
+Commit as yourself. Don't add a "Co-Authored-By: Claude" (or any
+Claude/Anthropic) trailer to commit messages, PR descriptions, or other
+git-related output for this repo.
 
 ## Forking this publicly
 
-If you fork this repo and commit your own trips, `trips/` is not scrubbed for
-you — keep real personal data (passport numbers, exact addresses, booking
+`.gitignore` ignores everything under `trips/` except `_template/` and
+`lisbon-8d/`, so real trips stay local by default. If you change that and
+commit your own trips, `trips/` is not scrubbed for you — keep real personal data (passport numbers, exact addresses, booking
 confirmations, anything you wouldn't want public) out of anything you commit.

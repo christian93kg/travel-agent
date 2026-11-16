@@ -1,0 +1,16 @@
+{
+  "location": "Lisbon, Portugal",
+  "checkin": "2027-04-10",
+  "checkout": "2027-04-17",
+  "adults": 2,
+  "zones": [
+    { "name": "Príncipe Real", "lat": 38.7166, "lng": -9.1488, "radiusKm": 0.7 },
+    { "name": "Alfama", "lat": 38.7114, "lng": -9.1302, "radiusKm": 0.6 },
+    { "name": "Campo de Ourique", "lat": 38.7176, "lng": -9.1652, "radiusKm": 0.8 }
+  ],
+  "pages": 5,
+  "details": 8,
+  "minRating": 4.8,
+  "minReviews": 15,
+  "roomsMatch": "^(1|2) bedrooms?"
+}

@@ -66,6 +66,8 @@ It doesn't stop at the architecture call — the same run produces a full day sk
 | **`[skill]`** | `plan-trip` (`.claude/skills/plan-trip/`) — intake → architecture → itinerary → calibration → gear, five stages, each reading its method from a specific file above rather than reasoning freehand. `PROTOCOL.md` is the authoritative flow. |
 | **`[template]`** | `trips/_template/trip.md` — the skeleton every trip gets scaffolded from: intake, architecture decision, day skeleton, threat calibration, gear delta, bookings, open questions. |
 | **`[worked example]`** | `trips/lisbon-8d/` — the Lisbon run above, in full, end to end. Invented dates, no real bookings — read it before your first real trip. |
+| **`[tools]`** | `tools/` — optional discovery pipelines: Google Flights search (any route, cabin, multi-city, batched and resumable) and a Landlock-sandboxed Airbnb search. Results are dated price snapshots, never bookings. See [`tools/README.md`](tools/README.md). |
+| **`[research]`** | `research/` — dated research reports on flight booking, disruptions and compensation, hotel booking, award travel and airport/rail tactics, with sources inline. See [`research/README.md`](research/README.md). |
 
 **You bring the dates and the destination. The method decides the shape.**
 
@@ -92,6 +94,8 @@ The gear playbooks share one bias: buy once, carry less, and don't decide brand 
 
 ## Install · about 5 minutes
 
+**You need:** [Claude Code](https://docs.claude.com/en/docs/claude-code/overview) with a Claude account that can run it. Optional: [Obsidian](https://obsidian.md) for browsing the method, and Node 20+ if you want the discovery tools in `tools/`.
+
 ### 1 · Get your own copy
 
 Click **Use this template ▸ Create a new repository** at the top of this page, name it, then clone it:
@@ -100,9 +104,15 @@ Click **Use this template ▸ Create a new repository** at the top of this page,
 git clone https://github.com/<you>/<your-repo>.git ~/my-travel-agent
 ```
 
+Or clone this repo directly if you just want to try it (keep your real trips local; see [Keep your trips private](#keep-your-trips-private)):
+
+```bash
+git clone https://github.com/christian93kg/travel-agent.git ~/my-travel-agent
+```
+
 ### 2 · Open it as an Obsidian vault
 
-Frameworks and playbooks cross-link heavily (`[[trip_architecture]]`-style wikilinks) — opening the folder in [Obsidian](https://obsidian.md) gives you backlinks and graph view for navigating them. Plain Markdown + Claude Code alone also works; skip to step 3 if that's your setup.
+Frameworks and playbooks cross-link heavily with ordinary relative Markdown links, so they work on GitHub, in any editor, and in [Obsidian](https://obsidian.md), which adds backlinks and a graph view. Plain Markdown + Claude Code alone also works; skip to step 3 if that's your setup.
 
 ### 3 · Open Claude Code in the folder
 
@@ -110,7 +120,7 @@ Frameworks and playbooks cross-link heavily (`[[trip_architecture]]`-style wikil
 cd ~/my-travel-agent && claude
 ```
 
-`CLAUDE.md` auto-loads — the read-only/editable split between `frameworks/`, `playbooks/`, and `trips/`, and the pointer to the `plan-trip` skill.
+`CLAUDE.md` auto-loads — the read-only/editable split between `frameworks/`, `playbooks/`, and `trips/`, and the pointer to the `plan-trip` skill. To check the skill is picked up, type `/` in Claude Code and look for `plan-trip` in the list (or just ask "what skills do you have?").
 
 ### 4 · Start
 
@@ -118,11 +128,24 @@ cd ~/my-travel-agent && claude
 
 Claude invokes `plan-trip`, batches the remaining intake questions into one message, and builds the architecture decision, day skeleton, threat calibration, and gear delta from the frameworks above.
 
+### 5 · Optional: discovery tools
+
+```bash
+cd tools && ./setup.sh                      # Node packages + headless Chromium, once
+node flights/day.js JFK LIS 2027-04-10      # every nonstop that day, with Google's price insight
+```
+
+With the tools installed, `plan-trip` can run an optional logistics scan (flights aimed at the arrival window, lodging per base) and write the results to the trip file as dated snapshots. Full guide: [`tools/README.md`](tools/README.md). The Airbnb sandbox needs Linux.
+
+### Keep your trips private
+
+`.gitignore` ignores everything under `trips/` except the template and the Lisbon example, so a real trip never gets committed by accident. If you want your trips in git, use a private repo and remove that rule.
+
 ---
 
 ## Limitations
 
-- **No booking integration.** The `Bookings` table in every trip file is a log, not a booking engine — flights, lodging, and reservations stay `pending` until you fill them in yourself. Nothing here calls an airline or hotel API.
+- **Discovery, not booking.** `tools/` can search flights and lodging, but it books nothing and holds nothing. Its prices are dated snapshots that go in the trip's `Options` section; the `Bookings` table stays a log of what you confirmed yourself. The tools read public web pages, so they break when those pages change, and using them is subject to each site's terms — that's your call.
 - **The frameworks skew solo/independent travel.** Hub-and-spoke sizing, the decision-fatigue architecture, and the gear capsule all assume you're the one making every call. Group and family travel change the math (someone to offload logistics onto is itself a variable the cognitive-load rule doesn't model) and aren't covered.
 - **Threat tiers are coarse.** Five physical tiers and four digital tiers give more resolution than most government advisories, but a single tier still collapses a lot of real variation within a country or even within a city. Treat `situational_awareness.md`'s tier as a starting posture, not a verdict — do destination-specific research before a Tier 3+ trip.
 - **`adhd_travel_design.md` is a design pattern, not clinical guidance.** It applies interest-based motivation research and decision-fatigue science to trip pacing. It isn't a description of any diagnosis, and it isn't a substitute for care from a clinician who knows your specific presentation — the file says this itself.
@@ -140,6 +163,8 @@ playbooks/                    the execution layer — 10 files, read-only refere
 trips/                        where your work goes — the only directory plan-trip writes to
   _template/trip.md            the skeleton every trip is scaffolded from
   lisbon-8d/                   a worked example, full pipeline, invented dates
+research/                     dated research reports (booking, disruptions, hotels, awards, tactics)
+tools/                        optional discovery pipelines — flights/, airbnb/ (sandboxed)
 .claude/skills/plan-trip/     SKILL.md (pointer) + PROTOCOL.md (the actual flow)
 docs/                         the hero image
 NOTICE.md                     quotation/attribution policy for every cited work

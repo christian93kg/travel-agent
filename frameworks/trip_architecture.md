@@ -1,6 +1,6 @@
 # Trip Architecture: Hub-and-Spoke vs. Circuit Touring
 
-**What this framework claims:** how you structure a trip — one base with day trips radiating outward, versus moving point-to-point through a region — matters more than most individual itinerary decisions, because it determines how much of your limited daily decision-making capacity is left over for actually experiencing what you traveled for. It also gives you a rule for how far in advance to commit to a given trip at all: physically demanding, time-bucketed experiences belong on this decade's calendar; lower-intensity, recovery-friendly travel can wait without much real cost. This is the companion piece to [[travel_philosophy]] — read that first for the memory-dividend and novelty-peak reasoning this file builds on.
+**What this framework claims:** how you structure a trip — one base with day trips radiating outward, versus moving point-to-point through a region — matters more than most individual itinerary decisions, because it determines how much of your limited daily decision-making capacity is left over for actually experiencing what you traveled for. It also gives you a rule for how far in advance to commit to a given trip at all: physically demanding, time-bucketed experiences belong on this decade's calendar; lower-intensity, recovery-friendly travel can wait without much real cost. This is the companion piece to [travel_philosophy](travel_philosophy.md) — read that first for the memory-dividend and novelty-peak reasoning this file builds on.
 
 ## 1. The Time-Bucket Case for Sequencing
 
@@ -12,7 +12,7 @@ Physical capital — VO2 max, fast-twitch fiber, proprioceptive balance, cartila
 | Moderate-exertion bucket | ~50–70 | Capacity remains but recovery lengthens and technical risk (exposed scrambling, altitude) yields diminishing returns. Prime window for supported trekking — luggage transfers, hub-and-spoke models. |
 | Low-exertion bucket | 70+ | Exploration shifts from doing to observing: river cruises, low-altitude walking, bus touring. |
 
-The memory-dividend math from [[travel_philosophy]] compounds this further: total lifetime utility from an experience is the enjoyment while it's happening, plus every year of dividend it pays out afterward until the end of your life. Delaying a high-exertion trip by one bucket doesn't just risk being physically unable to do it — it structurally shortens the dividend stream by however many years you waited, on top of whatever capability you lost. A demanding multi-day trek taken now instead of a decade from now isn't just "easier now" — it's a different, larger asset.
+The memory-dividend math from [travel_philosophy](travel_philosophy.md) compounds this further: total lifetime utility from an experience is the enjoyment while it's happening, plus every year of dividend it pays out afterward until the end of your life. Delaying a high-exertion trip by one bucket doesn't just risk being physically unable to do it — it structurally shortens the dividend stream by however many years you waited, on top of whatever capability you lost. A demanding multi-day trek taken now instead of a decade from now isn't just "easier now" — it's a different, larger asset.
 
 ## 2. Peak-End Rule and Narrative Construction
 
@@ -25,7 +25,7 @@ Two design implications follow directly:
 
 ## 3. Cognitive Load: Circuit vs. Hub
 
-Point-to-point travel — a new town, new bed, and new logistics every day or two — forces the brain into constant re-adaptation. That includes a nightly First Night Effect (see the safe-cell protocol in [[travel_philosophy]]) that never gets the chance to resolve, because you're never in the same room two nights running. Solo travel amplifies this: you're the sole decision-maker for navigation, safety, and logistics, with no one to offload any of it onto.
+Point-to-point travel — a new town, new bed, and new logistics every day or two — forces the brain into constant re-adaptation. That includes a nightly First Night Effect (see the safe-cell protocol in [travel_philosophy](travel_philosophy.md)) that never gets the chance to resolve, because you're never in the same room two nights running. Solo travel amplifies this: you're the sole decision-maker for navigation, safety, and logistics, with no one to offload any of it onto.
 
 This matters beyond fatigue because cognitive load competes directly with memory formation. If you're tracking trail markers, transit connections, or where you left your bag, you are not encoding the scenery you traveled to see — the two draw on the same attentional resource, and logistics wins by default because it's more urgent.
 
@@ -37,7 +37,7 @@ Pick a base for 5-7 nights. Unpack once. Take day trips outward, and return to t
 
 - **Packing/unpacking cycles** — each one is a small executive-function tax that adds up over a multi-week trip.
 - **Check-in friction** — ID, card, room orientation, and wifi setup repeated at every new hotel on a circuit; paid once on a hub.
-- **The nightly First Night Effect reset** — see [[travel_philosophy]] for the mechanism; a hub lets sleep quality actually improve night over night instead of resetting.
+- **The nightly First Night Effect reset** — see [travel_philosophy](travel_philosophy.md) for the mechanism; a hub lets sleep quality actually improve night over night instead of resetting.
 - **Standing itinerary overhead** — no daily "where am I going, how do I get there, did I check out" tax after day one.
 
 In exchange, hub-and-spoke buys you two things a circuit can't offer:
@@ -47,7 +47,7 @@ In exchange, hub-and-spoke buys you two things a circuit can't offer:
 
 ## 5. Sizing Rule: the 8-Day Peak as an Architecture Constraint
 
-Tie hub duration to the novelty curve in [[travel_philosophy]] §2: a 5-7 night hub roughly matches the window where novelty peaks before hedonic adaptation sets in. Run a hub much longer than that and the same adaptation curve that applies to a single destination starts applying to the hub itself — the base stops feeling novel, not just the spokes. This is the same logic that favors four pulsed 8-10 day trips a year over one long one: it applies at the level of the hub, not just the level of the trip.
+Tie hub duration to the novelty curve in [travel_philosophy](travel_philosophy.md) §2: a 5-7 night hub roughly matches the window where novelty peaks before hedonic adaptation sets in. Run a hub much longer than that and the same adaptation curve that applies to a single destination starts applying to the hub itself — the base stops feeling novel, not just the spokes. This is the same logic that favors four pulsed 8-10 day trips a year over one long one: it applies at the level of the hub, not just the level of the trip.
 
 ## 6. Booking Horizon: What to Lock In Now vs. Later
 
@@ -60,7 +60,7 @@ This is a sequencing rule, not a scarcity rule — the point isn't to rush every
 
 ## See Also
 
-- [[travel_philosophy]] — memory dividends, the 8-day novelty peak, and the safe-cell sleep protocol this file's First Night Effect references depend on
-- [[jet_lag_protocol]] — circadian protocol for getting to the destination-morning decompression window faster, which shortens how much of a hub's early nights are lost to days 1-4
-- [[adhd_travel_design]] — decision-fatigue mechanics behind the cognitive-load argument in §3
+- [travel_philosophy](travel_philosophy.md) — memory dividends, the 8-day novelty peak, and the safe-cell sleep protocol this file's First Night Effect references depend on
+- [jet_lag_protocol](jet_lag_protocol.md) — circadian protocol for getting to the destination-morning decompression window faster, which shortens how much of a hub's early nights are lost to days 1-4
+- [adhd_travel_design](adhd_travel_design.md) — decision-fatigue mechanics behind the cognitive-load argument in §3
 - [points and seasons](../playbooks/points_and_seasons.md) — when to book a given hub region

@@ -54,6 +54,6 @@ The eSIM route is the lowest-friction option for most trips — activate from yo
 
 ## Related
 
-- [[pre_trip_opsec]] — device and identity prep before departure.
-- [[in_transit_security]] — network security once you're using that SIM and that Signal account on the road.
+- [pre_trip_opsec](pre_trip_opsec.md) — device and identity prep before departure.
+- [in_transit_security](in_transit_security.md) — network security once you're using that SIM and that Signal account on the road.
 - [situational_awareness](../../frameworks/situational_awareness.md) — how comms discipline fits the broader threat-awareness picture.

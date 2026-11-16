@@ -35,7 +35,7 @@ are easy to flatten into something they didn't say).
 **Model:** hub-and-spoke | circuit
 
 **Reasoning:** [Cite the cognitive-load rule and the 8-day novelty-peak sizing
-from [[trip_architecture]]. State why this trip's day count, party,
+from [trip_architecture](../../frameworks/trip_architecture.md). State why this trip's day count, party,
 and destination shape favor one model over the other. If circuit, name the
 anchor+satellite compromise used to blunt the packing/check-in tax.]
 
@@ -60,7 +60,7 @@ consolidation/reset before the trip's back half runs out.
 
 ## Threat calibration
 
-**Tier:** [per [[situational_awareness]]]
+**Tier:** [per [situational_awareness](../../frameworks/situational_awareness.md)]
 
 **Posture notes:** [baseline behavior, situational awareness adjustments for
 this destination/party]
@@ -71,7 +71,7 @@ only what this destination/trip actually calls for]
 ## Gear & capsule checklist
 
 Delta only — what's different from the reader's default capsule
-([[clothing_capsule]], [[gear_kit]]), not a full
+([clothing_capsule](../../playbooks/clothing_capsule.md), [gear_kit](../../playbooks/gear_kit.md)), not a full
 manifest.
 
 - [ ]
@@ -89,6 +89,16 @@ prices, dates, or providers.
 | Flights | pending / booked | |
 | Lodging (hub) | pending / booked | |
 | Lodging (spokes) | pending / booked | |
+
+## Options (dated snapshots)
+
+Optional: filled by the Stage 3b logistics scan (`tools/`). Searched prices
+are snapshots, not holds or bookings. Top three per item, with the date seen.
+
+| Item | Option | Price seen | Seen on | Tradeoff |
+|---|---|---|---|---|
+| Flights | | | | |
+| Lodging (hub) | | | | |
 
 ## Open questions
 
